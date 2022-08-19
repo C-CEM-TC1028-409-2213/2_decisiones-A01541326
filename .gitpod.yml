@@ -1,0 +1,4 @@
+tasks:
+  - init: pip3 install pytest
+  - init: pip3 install pycodestyle
+  - init: pip3 install autopep8
