@@ -7,7 +7,7 @@ def main():
         print("",x,"-",y,"-",z)
     elif(y>x and x>z):
         print("",y,"-",x,"-",z)
-    elif(z>x and y>x):
+    elif(z>x and x>y):
         print("",z,"-",x,"-",y)
     elif(z>y and y>x):
         print("",z,"-",y,"-",x)
