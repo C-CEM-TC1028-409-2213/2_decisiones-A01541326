@@ -10,7 +10,6 @@ def main():
     if(altura<=0):
         print ("Revisa tus datos algunos de ellos es erróneo")
 
-    
     if IMC <= 20:
         print("PESO BAJO")
     elif 20 <= IMC <= 25:
