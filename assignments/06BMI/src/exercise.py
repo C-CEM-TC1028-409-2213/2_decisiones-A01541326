@@ -3,13 +3,13 @@ def main():
     peso = float(input("Peso en kg:"))
     altura = float(input("Altura en m:"))
 
-    IMC = peso / (altura*2)
-    
     if(peso<=0):
         print ("Revisa tus datos, alguno de ellos es erróneo")
     if(altura<=0):
         print ("Revisa tus datos algunos de ellos es erróneo")
-
+    
+    IMC = peso / (altura**2)
+    
     if IMC <= 20:
         print("PESO BAJO")
     elif 20 <= IMC <= 25:
